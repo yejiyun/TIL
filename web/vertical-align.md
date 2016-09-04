@@ -52,7 +52,7 @@
  }
 ```
 
-6. --Flex Box-- 사용용
+6. **Flex Box** 사용용
  - CSS3에서 새로이 나온 개념(IE 10, safari 6, chrom 27 사용 가능)
  - 이전과 달리 텍스트가 content로 자식 관계가 아닌 <p>태그 사용
  ```
@@ -61,3 +61,4 @@
  align-items: center;
  }
 ```
+Ref:http://www.hongkiat.com/blog/css-tricks-vertical-align-content/
