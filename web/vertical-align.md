@@ -31,31 +31,33 @@
 	}
 	```
 	
-	3. Use padding
-	- padding을 사용하여, 중간에 있는 것처럼 만들 수 있다.
-	- top과 bottom에 padding을 똑같이 주고 조정하는 것이다.
+3. Use padding
+ - padding을 사용하여, 중간에 있는 것처럼 만들 수 있다.
+ - top과 bottom에 padding을 똑같이 주고 조정하는 것이다.
 	
-	4. Line Height 사용용
-	- content가 한줄의 텍스트인 경우 사용할 수 있는 방법으로 text를 중앙정렬할때 line-height를 사용
-	- 텍스트를 중심에 두고 height를 결정하는 방법
-	- 단점은 텍스트가 여러줄인 경우, 줄 간격이 넓어질 수 있음음
+4. Line Height 사용용
+ - content가 한줄의 텍스트인 경우 사용할 수 있는 방법으로 text를 중앙정렬할때 line-height를 사용
+ - 텍스트를 중심에 두고 height를 결정하는 방법
+ - 단점은 텍스트가 여러줄인 경우, 줄 간격이 넓어질 수 있음음
 	
-	5. CSS Table 사용
-	- IE8과 같이 구버전에서 사용가능한 방법으로 display를 table로 설정한 방법이다 
-	```
-	.container{
-	display : table;
-	}
+5. CSS Table 사용
+ - IE8과 같이 구버전에서 사용가능한 방법으로 display를 table로 설정한 방법이다 
+ ```
+ .container{
+ display : table;
+ }
 	
-	.content{
-	display: table-cell;
-	}
-	
-	6. --Flex Box-- 사용용
-	- CSS3에서 새로이 나온 개념(IE 10, safari 6, chrom 27 사용 가능)
-	- 이전과 달리 텍스트가 content로 자식 관계가 아닌 <p>태그 사용
-	```
-	.container{
-	display: flex;
-	align-items: center;
-	}
+.content{
+ display: table-cell;
+ }
+```
+
+6. --Flex Box-- 사용용
+ - CSS3에서 새로이 나온 개념(IE 10, safari 6, chrom 27 사용 가능)
+ - 이전과 달리 텍스트가 content로 자식 관계가 아닌 <p>태그 사용
+ ```
+ .container{
+ display: flex;
+ align-items: center;
+ }
+```
