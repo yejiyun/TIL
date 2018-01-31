@@ -11,12 +11,13 @@ push / pop
 push / shift
 
 3.Splice - 배열에서 특정 부분을 잘라서 삭제한뒤, 다른 데이터로 치환할 때 씀 
+```
 array.splice(index num, 추출할 요소 갯수, ...치환할 데이터 값 ) 
 ex.
 var data = ['a','b','c','d','e']
 console.log(data.splice(3,2,'h'));  // 치환할 데이터 값 전과 후의 갯수는 다를 수 있다. 
 -> result : data = ['a','b','c','h'];
-
+```
 
 #Array 함수에서 사용자 지정 함수로 처리 가능한 콜백 함수 : for each/map/some/filter 
 1. for each 
