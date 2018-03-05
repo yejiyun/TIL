@@ -36,3 +36,29 @@
 	nam[0].value = current.toLocaleTimeString();
 	</script>
   </code>
+
+
+
+3. innerHTML
+<html>
+	<head></head>
+	<body>
+	<div id = "result_text">
+	<p style ="color: Blue;"> 설정됨</p>
+	</div>
+	<div id = "result_html">
+	<p style = "color: Red;"> 설정안됨</p>
+	</div>
+
+	<script type="text/javascript">
+	document.addEventListener('DOMContentLoaded', function(){
+		document.getElementById('result_text').textContent =
+		'<a href = "http://www.naver.com">네이버 </a>';
+		document.getElementById('result_html').innerHTML =
+		'<a href = "http://kakao.com"> 카카오 </a>';
+	},false);
+
+	</script>
+	</body>
+	
+</html>
