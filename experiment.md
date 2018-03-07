@@ -17,7 +17,7 @@
 </html>
 
 2. 참가자 번호 입력과 console에 찍힘 
-'''
+<html>
 <form>
  <label for ="participant"> 참가자 번호: </label>
  <input id = "participant" participant ="participant" type ="text" size ="30"/>
@@ -25,10 +25,14 @@
 </form>
 <div id = "startpoint"></div>
 
+
+<script type="text/javascript">
 document.addEventListener('DOMContentLoaded', function(){
  document.getElementById('btn').addEventListener('click', function(){
  var participant = document.getElementById('participant');
  console.log(participant.value);
  },false);
 },false);
-'''
+</script>
+
+</html>
