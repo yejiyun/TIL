@@ -16,7 +16,9 @@
 	
 </html>
 
-2. 참가자 번호 입력과 console에 찍힘 
+2. 참가자 번호 입력과 console에 찍힘
+
+<code>
 <html>
 <form>
  <label for ="participant"> 참가자 번호: </label>
@@ -36,3 +38,4 @@ document.addEventListener('DOMContentLoaded', function(){
 </script>
 
 </html>
+</code>
